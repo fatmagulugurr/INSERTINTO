@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> İNSERT İNTO KULLANIMI</title>
+    <style>
+        .body{
+            background-color: rgb(201, 233, 233);
+        }
+        .prgrf{
+            height: 150px;
+            width: 400px;
+            border-style: double;
+            margin-left: 200px;
+            border-radius: 2px;
+            background-color: beige;
+            float: left;
+           
+        }
+        .paragraf{
+            height: 200px;
+            width: 400px;
+            border-style: double;
+            margin-left: 200px;
+            border-radius: 2px;
+            background-color: beige;
+            float: left;
+        
+        
+        }
+        .ins{
+            margin-top: 10px;
+            border-style: hidden;
+            background-color: azure;
+            height: 100px;
+            width: 600px;
+            margin-left: 400px;
+        }
+        .resim{
+            margin-left: 300px;
+            margin-top: 20px;
+        }
+        .sorgu{
+            margin-top: 100px;
+        margin-left: -200px;
+       
+        }
+        .tablo{
+            margin-top: 100px;
+            margin-left: -200px;
+        }
+    </style>
+</head>
+<body class="body">
+    <h1><center><b>INSERT INTO KULLANIMI</b></center></h1>
+    <div class="prgrf">
+    <p >Veri tabanı içerisinde herhangi bir tabloya yeni veri girişi için inser into kullanılır.
+        Tabloya eklenecek veriler karakter veya karakter kümesi şeklinde ise tırnak('') içerisine yazılmalıdır. Sayısal türdeki veriler
+        için tırnak kullanılmadan doğrudan değer yazılır. Kullanım şekli MS SQL SERVER,ORACLE ve MYSQL' de aynıdır.
+    </p>
+</div>
+<div  class="paragraf">
+    <h5>KULLANIM ŞEKLİ:</h5>
+    <P><b>INSERT INTO </b> tablo <b>VALUES</b> (deger1,deger2,deger3...) ifadesinden sonra da girişi yapılacak veriler yazılır.
+    Kullanım şeklinde belirtildiği gibi sütun isimleri belirtilmemiştir.Bu tür kullanımlarda tablo içerisindeki sütunların sıralaması
+nasılsa <b>VALUES</b> kısmında da verilen değerler bu sıralamaya göre yerleştirilir ve tablonun sütun sayısı kadar değer girişi zorunludur.</P>
+</div>
+<img src="innsert.png" class="resim">
+<div class="ins">
+<p>
+    <h3>KULLANIM ŞEKLİ 2:</h3> 
+    <B>INSERT INTO</B> tablo_adi (sütun1,sütun2...) <b>VALUES</b> (deger1,deger2...)
+</p>
+<img src="sorgu.PNG" class="sorgu">
+<img src="tablo.PNG" class="tablo">
+</div>
+</body>
+</html>
